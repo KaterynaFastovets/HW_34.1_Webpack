@@ -1,0 +1,44 @@
+@import '/src/css/fonts.css';
+
+
+.container {
+  padding: 20px 40px;
+  max-width: 1280px;
+  align-items: center ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Roboto-bold-italic ;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: rgb(49, 162, 228);
+}
+
+p {
+  font-family: Roboto-italic;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: rgb(14, 103, 155);
+}
+
+h4 {
+  font-family: Roboto-italic;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(14, 103, 155);
+}
+
+.logo {
+  background-image: url(/src/images/images.png);
+  background-size: cover;
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  
+} 
+
