@@ -12,17 +12,17 @@ module.exports = {
   },
   module: {
     rules: [
-      {
+      
         // Styles
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        {test: /\.css$/,
+        use: ["style-loader", "css-loader"],},
 
         //img
-        test: /\.(gif|png|jpg|svg)$/,
-        use: ["file-loader"],
+        {test: /\.(gif|png|jpg|svg)$/,
+        use: ["file-loader"],},
 
         // Fonts
-        test: /\.(eot|otf|ttf|woff|woff2)$/,
+        {test: /\.(eot|otf|ttf|woff|woff2)$/,
         use: ["file-loader"],
       },
     ],
