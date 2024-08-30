@@ -1,6 +1,8 @@
-
 import "./css/styles.css";
+import "./less/app.less"
+import "./scss/app.scss"
 import img from "./images/images.png";
+// import myName from "./index.ts"
 
 function component() {
   const el = document.createElement("div");
